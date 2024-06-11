@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.image{
+  width: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-image {
+  background-image: url('./Image/wallpaper.webp'); /* Replace with your image path */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding for small screens */
+  box-sizing: border-box;
+}
+
+.text-overlay {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Ensure the text box doesn't get too wide */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+      padding: 15px;
+      max-width: 90%;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  p {
+      font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-overlay {
+      padding: 10px;
+      max-width: 100%;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  p {
+      font-size: 0.9em;
+  }
+}
