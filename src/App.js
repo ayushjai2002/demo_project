@@ -9,7 +9,7 @@ function App() {
 			<Navbar/>
       <div class="background-image">
         <div class="text-overlay">
-            <h1>Journey With Confidence migrate with us</h1>
+            <h1>Journey Withh Confidence migrate with us</h1>
             <p>This is a description text over the background image.</p>
         </div>
     </div>
